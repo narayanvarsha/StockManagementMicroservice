@@ -13,11 +13,7 @@ Example request: In the terminal, use the command line to update the ticker file
 
 <img width="185" alt="image" src="https://github.com/user-attachments/assets/0193a901-e8b2-4b47-aefe-c05033384af0">
 
-Another way to request stock data is by updating the 'ticker.txt' file with the desired symbol and save the file. After running the microservice, run the test program to receive the summary of the stock you entered in the termianl. If you don't want to see the summary on the terminal, the json file will be updated.
-
-![Screenshot 2024-08-06 065701](https://github.com/user-attachments/assets/24c22c1b-0836-4773-9b61-5703f1130a6f)
-
-
+Another way to request stock data is by updating the 'ticker.txt' file with the desired symbol and save the file. Then, the summary of the stock will be displayed in the json file.
 
 How to receive data:
 After the microservice processes the ticker symbol, it writes the stock data to the 'stock_summary.json' file. You can read this file to get the stock information.
