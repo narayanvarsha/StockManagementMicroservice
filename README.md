@@ -9,9 +9,14 @@ How to request data:
 To request stock data, write the desired ticker symbol in the termianl. This will be updated in the 'ticker.txt' file. This file should be located in the same directory as the microservice script.
 
 Example request: In the terminal, use the command line to update the ticker file. 
-                 For example, to retrieve the stats about nvidia, you would put 'python test_microservice.py NVDA' in the terminal.
+                 For example, to retrieve the stats about microsoft, you would put 'python test_microservice.py MSFT' in the terminal.
 
 <img width="185" alt="image" src="https://github.com/user-attachments/assets/0193a901-e8b2-4b47-aefe-c05033384af0">
+
+Another way to request stock data is by updating the 'ticker.txt' file with the desired symbol and save the file. After running the microservice, run the test program to receive the summary of the stock you entered in the termianl. If you don't want to see the summary on the terminal, the json file will be updated.
+
+![Screenshot 2024-08-06 065701](https://github.com/user-attachments/assets/24c22c1b-0836-4773-9b61-5703f1130a6f)
+
 
 
 How to receive data:
