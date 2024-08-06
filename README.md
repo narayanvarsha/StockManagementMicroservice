@@ -5,8 +5,13 @@ This microservice updates a text file with a new ticker symbol, uses the 'yfinan
 
 Communication Contract:
 
+Before we run any of the files we should install the 'yfinances library' by just running this line in the terminal.
+
+<img width="124" alt="image" src="https://github.com/user-attachments/assets/88e905f7-7969-4c57-9470-5be5bf0e3860">
+
+
 How to request data:
-To request stock data, write the desired ticker symbol in the termianl. This will be updated in the 'ticker.txt' file. This file should be located in the same directory as the microservice script.
+To request stock data, write the desired ticker symbol in the terminal. This will be updated in the 'ticker.txt' file. This file should be located in the same directory as the microservice script.
 
 Example request: In the terminal, use the command line to update the ticker file. 
                  For example, to retrieve the stats about microsoft, you would put 'python test_microservice.py MSFT' in the terminal.
